@@ -79,7 +79,7 @@ EOS
     original_string = "Hello, "
     hi = original_string
     there = "World"
-    hi += thereLGA
+    hi += there
     assert_equal "Hello, ", original_string
   end
 

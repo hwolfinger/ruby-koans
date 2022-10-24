@@ -86,7 +86,7 @@ class AboutSymbols < Neo::Koan
   def test_symbols_cannot_be_concatenated
     # Exceptions will be pondered further down the path
     assert_raise(CustomError) do
-      raise CustomError, :cats + :dogs
+      raise CustomError, ':cats + :dogs'
     end
   end
 

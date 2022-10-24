@@ -9,13 +9,13 @@ class AboutArrays < Neo::Koan
 
   def test_array_literals
     array = Array.new
-    assert_equal [1,2], array
+    assert_equal [], array
 
     array[0] = 1
     assert_equal [1], array
 
     array[1] = 2
-    assert_equal [1, __], array
+    assert_equal [1, 2], array
 
     array << 333
     assert_equal __, array
